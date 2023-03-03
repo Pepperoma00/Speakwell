@@ -125,4 +125,24 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+    /**
+     * Displays about page.
+     *
+     * @return string
+     */
+    public function actionLogopedista()
+    {
+        return $this->render('logopedista');
+    }
+
+    /**
+     * Displays about page.
+     *
+     * @return string
+     */
+    public function actionInfo()
+    {
+        return $this->render('informazioni');
+    }
 }
