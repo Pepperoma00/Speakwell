@@ -28,8 +28,4 @@ class AppAsset extends AssetBundle
         'yii\web\YiiAsset',
         'yii\bootstrap5\BootstrapAsset'
     ];
-
-    public static function Logopedista(\yii\web\View $param)
-    {
-    }
 }
